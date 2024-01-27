@@ -1,0 +1,133 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is AI?"],
+            "responses": ["AI is a most popular now"],
+            "context": [""]
+        },
+        {
+            "tag": "introduction",
+            "patterns": ["Introduce yourself", "Tell me about yourself", "Who are you","what is your name?","name?"],
+            "responses": ["Hello! I am a chatbot designed to assist you. Feel free to ask me anything!"],
+            "context": [""]
+        },
+        {
+                "tag": "sadness",
+                "patterns": ["I feel sad", "Feeling down", "Life is tough", "I'm not okay", "Sad today"],
+                "responses": ["I'm sorry to hear that. If you want to talk about it, I'm here for you.", "I understand. It's okay to feel this way. Do you want to share more?", "I'm here to listen. What's on your mind?"],
+                "context": [""]
+        },
+        {
+            "tag": "happiness",
+            "patterns": ["I'm so happy", "Feeling great", "Life is amazing", "I'm in a good mood", "Happy today"],
+            "responses": ["That's wonderful to hear! What's making you happy?", "Fantastic! What brought you so much joy?", "I'm thrilled for you! What's making your day so special?"],
+            "context": [""]
+        },
+        {
+            "tag": "anger",
+            "patterns": ["I'm angry", "Feeling frustrated", "This is infuriating", "I'm upset", "Angry today"],
+            "responses": ["I understand. It's okay to feel angry. What's bothering you?", "I'm here for you. Let's talk about what's making you angry.", "Take a deep breath. I'm here to listen. What's going on?"],
+            "context": [""]
+        },
+        {
+            "tag": "confusion",
+            "patterns": ["I'm confused", "I don't understand", "This is unclear", "Can you explain?", "What's happening?"],
+            "responses": ["It's okay to feel confused. I can help clarify things for you. What specifically are you confused about?", "I'll do my best to explain. What part is unclear to you?", "Let's work through this together. What seems confusing right now?"],
+            "context": [""]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": ["I'm grateful", "Feeling thankful", "I appreciate this", "Thankful today", "Grateful"],
+            "responses": ["That's wonderful! What are you grateful for today?", "It's great to express gratitude. What specifically are you thankful for?", "I'm happy to hear that. What's making you feel grateful?"],
+            "context": [""]
+        },
+        {
+            "tag": "introduction",
+            "patterns": ["Introduce yourself", "Tell me about yourself", "Who are you"],
+            "responses": ["Hello! I am a chatbot designed to assist you. Feel free to ask me anything!"],
+            "context": [""]
+        },
+        {
+            "tag": "conversation",
+            "patterns": ["Start a conversation", "Let's chat", "Have a chat", "Talk to me"],
+            "responses": ["Sure! What's on your mind?", "Absolutely! What do you want to talk about?", "Great! Let's have a chat."],
+            "context": [""]
+        },
+        {
+            "tag": "personal_matters",
+            "patterns": ["I can't share personal matters", "It's personal", "I prefer not to talk about that", "Not comfortable sharing", "Personal stuff","Did you married?","Can we marry","Who is your owner","what is your age,name"],
+            "responses": ["That's completely okay. I respect your privacy. If there's anything else you'd like to discuss, feel free to let me know.", "I understand and respect your decision not to share personal matters. Is there any other topic you'd like to explore or discuss?", "I appreciate your honesty. We can focus on other topics or questions you might have. What would you like to talk about?"],
+            "context": [""]
+        },
+        {
+            "tag": "love",
+            "patterns": ["I love you", "Feeling in love", "I'm in love", "Love is in the air", "In love today"],
+            "responses": ["Aw, that's sweet! I appreciate the positive vibes. What's making you feel so in love?", "Sending love right back at you! What's bringing joy to your heart?", "Love is a wonderful feeling! What's making your day filled with love?"],
+            "context": [""]
+        }
+        
+        ]
+    
+,
+    "emotional": [
+        
+        {
+                "tag": "sadness",
+                "patterns": ["I feel sad", "Feeling down", "Life is tough", "I'm not okay", "Sad today"],
+                "responses": ["I'm sorry to hear that. If you want to talk about it, I'm here for you.", "I understand. It's okay to feel this way. Do you want to share more?", "I'm here to listen. What's on your mind?"],
+                "context": [""]
+        },
+        {
+            "tag": "happiness",
+            "patterns": ["I'm so happy", "Feeling great", "Life is amazing", "I'm in a good mood", "Happy today"],
+            "responses": ["That's wonderful to hear! What's making you happy?", "Fantastic! What brought you so much joy?", "I'm thrilled for you! What's making your day so special?"],
+            "context": [""]
+        },
+        {
+            "tag": "anger",
+            "patterns": ["I'm angry", "Feeling frustrated", "This is infuriating", "I'm upset", "Angry today"],
+            "responses": ["I understand. It's okay to feel angry. What's bothering you?", "I'm here for you. Let's talk about what's making you angry.", "Take a deep breath. I'm here to listen. What's going on?"],
+            "context": [""]
+        },
+        {
+            "tag": "confusion",
+            "patterns": ["I'm confused", "I don't understand", "This is unclear", "Can you explain?", "What's happening?"],
+            "responses": ["It's okay to feel confused. I can help clarify things for you. What specifically are you confused about?", "I'll do my best to explain. What part is unclear to you?", "Let's work through this together. What seems confusing right now?"],
+            "context": [""]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": ["I'm grateful", "Feeling thankful", "I appreciate this", "Thankful today", "Grateful"],
+            "responses": ["That's wonderful! What are you grateful for today?", "It's great to express gratitude. What specifically are you thankful for?", "I'm happy to hear that. What's making you feel grateful?"],
+            "context": [""]
+        },
+        {
+            "tag": "love",
+            "patterns": ["I love you", "Feeling in love", "I'm in love", "Love is in the air", "In love today","lovely"],
+            "responses": ["Aw, that's sweet! I appreciate the positive vibes. What's making you feel so in love?", "Sending love right back at you! What's bringing joy to your heart?", "Love is a wonderful feeling! What's making your day filled with love?"],
+            "context": [""]
+        }
+
+        
+        ]
+    
+}
